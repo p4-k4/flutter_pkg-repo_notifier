@@ -1,0 +1,26 @@
+name: repo_notifier
+description: A Flutter package providing a simple and efficient way to manage repository state with built-in CRUD operations and state management.
+version: 0.0.1
+homepage: https://github.com/p4-k4/flutter_pkg-repo_notifier
+repository: https://github.com/p4-k4/flutter_pkg-repo_notifier
+topics:
+  - repository
+  - state
+  - crud
+  - state-management
+  - flutter
+
+environment:
+  sdk: ^3.6.0-334.4.beta
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
