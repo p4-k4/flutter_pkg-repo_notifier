@@ -1,6 +1,8 @@
-## 0.0.1
+## 0.0.1-beta.1
 
-Initial release of the repo_notifier package.
+Initial beta release of the repo_notifier package.
+
+Note: This is a pre-release version that depends on Dart SDK 3.6.0-334.4.beta.
 
 ### Features
 * Core repository state management functionality

@@ -2,6 +2,10 @@
 
 A Flutter package providing a simple and efficient way to manage repository state with built-in CRUD operations and state management.
 
+## Beta Release Notice
+
+This package is currently in beta and requires Dart SDK version 3.6.0-334.4.beta or higher. Please ensure your project meets these requirements before using this package.
+
 ## Features
 
 - Built-in state management for repository operations
@@ -18,7 +22,10 @@ Add `repo_notifier` to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  repo_notifier: ^0.0.1
+  repo_notifier: ^0.0.1-beta.1
+
+environment:
+  sdk: ^3.6.0-334.4.beta  # Required for this package
 ```
 
 ## Usage
@@ -138,10 +145,6 @@ userDataRepo.match<Widget>(
 ## Example
 
 Check out the [example](example) directory for a complete working demo.
-
-## Author
-
-Paurini Taketakehikuroa Wiringi
 
 ## License
 
