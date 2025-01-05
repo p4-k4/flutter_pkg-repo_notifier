@@ -40,9 +40,6 @@ class Home extends StatelessWidget {
                       'Current User: ${d.name ?? 'No name'}',
                       style: Theme.of(context).textTheme.titleLarge,
                     ),
-                    onWaiting: () => const Center(
-                      child: CircularProgressIndicator(),
-                    ),
                     onError: (error, _) => Text(
                       'Error: $error',
                       style:

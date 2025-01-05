@@ -139,6 +139,10 @@ userDataRepo.match<Widget>(
 
 Check out the [example](example) directory for a complete working demo.
 
+## Author
+
+Paurini Taketakehikuroa Wiringi
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
